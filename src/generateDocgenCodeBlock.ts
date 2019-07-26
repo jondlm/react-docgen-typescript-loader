@@ -1,6 +1,9 @@
 import path from "path";
 import ts from "typescript";
-import { ComponentDoc, PropItem } from "react-docgen-typescript/lib/parser.js";
+import {
+  ComponentDoc,
+  PropItem,
+} from "@xandr/react-docgen-typescript/lib/parser.js";
 
 export interface GeneratorOptions {
   filename: string;

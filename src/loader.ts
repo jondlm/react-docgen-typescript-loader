@@ -11,7 +11,7 @@ import {
   withCompilerOptions,
   ParserOptions,
   FileParser,
-} from "react-docgen-typescript/lib/parser.js";
+} from "@xandr/react-docgen-typescript/lib/parser.js";
 import LoaderOptions from "./LoaderOptions";
 import validateOptions from "./validateOptions";
 import generateDocgenCodeBlock from "./generateDocgenCodeBlock";

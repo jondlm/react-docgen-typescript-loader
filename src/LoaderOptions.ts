@@ -1,5 +1,5 @@
 import { CompilerOptions } from "typescript";
-import { PropFilter } from "react-docgen-typescript/lib/parser.js";
+import { PropFilter } from "@xandr/react-docgen-typescript/lib/parser.js";
 
 export default interface LoaderOptions {
   /** Avoid including docgen information for the prop or props specified. */

@@ -49,7 +49,7 @@ const schema = {
 
 function validateOptions(options: LoaderOptions = {}) {
   validate({
-    name: "react-docgen-typescript-loader",
+    name: "@xandr/react-docgen-typescript-loader",
     schema,
     target: options,
   });
